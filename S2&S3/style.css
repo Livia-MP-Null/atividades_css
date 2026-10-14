@@ -1,0 +1,82 @@
+
+
+/* todas as páginas  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabeçalho e menu */
+header {
+    background-color: #dbe7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #1a3a6b;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*título principal*/
+#titulo-principal {
+    color: #1a3a6b;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+/* títulos das seções  */
+.titulo-secao {
+    color: #1a3a6b;
+    border-bottom: 2px solid #f2b705;
+    padding-bottom: 5px;
+}
+
+/* textos */
+.texto {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* banner  */
+.destaque {
+    background-color: #fff3c4;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* centralizar */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* cursos e produtos */
+.caixa {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a3a6b;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .texto {
+    color: white;
+}
